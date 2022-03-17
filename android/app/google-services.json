@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1007202459137",
+    "project_id": "vilichat-d437c",
+    "storage_bucket": "vilichat-d437c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007202459137:android:78d07d8fd19ec025d46a00",
+        "android_client_info": {
+          "package_name": "com.example.chat_app_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007202459137-sds523u725fblenqa20ou90pc055s8m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZBRzpvPpJ6YyPSBImZBrfhZcdCa6aw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007202459137-sds523u725fblenqa20ou90pc055s8m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
