@@ -63,12 +63,12 @@ class _ContactScreenState extends State<ContactScreen> {
                         _contactController.selectedChat.user.name[0]
                             .toUpperCase(),
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Color.fromARGB(255, 250, 244, 250),
                           fontSize: 14,
                         ),
                       ),
                       radius: 16,
-                      backgroundColor: Colors.blue,
+                      backgroundColor: Color.fromARGB(255, 241, 142, 237),
                     ),
                     SizedBox(
                       width: 7,
@@ -82,13 +82,6 @@ class _ContactScreenState extends State<ContactScreen> {
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
-                          ),
-                        ),
-                        Text(
-                          "@${_contactController.selectedChat.user.username}",
-                          style: TextStyle(
-                            color: Colors.grey,
-                            fontSize: 10,
                           ),
                         ),
                       ],

@@ -82,7 +82,7 @@ class SettingsController extends StateControl {
   }
 
   openModalExitApp() {
-    String title = "Exit";
+    String title = "Logout";
     String description =
         "Are you sure you want to quit? Your conversations will be lost.";
     List<Widget> actions = [
@@ -94,7 +94,7 @@ class SettingsController extends StateControl {
       ),
       TextButton(
         child: Text(
-          Platform.isIOS ? 'Exit' : 'EXIT',
+          Platform.isIOS ? 'Logout' : 'LOGOUT',
           style: TextStyle(color: Platform.isIOS ? Colors.red : Colors.blue),
         ),
         onPressed: () {

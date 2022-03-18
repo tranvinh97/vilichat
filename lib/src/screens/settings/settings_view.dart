@@ -30,7 +30,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           return Scaffold(
             backgroundColor: Color(0xFFEEEEEE),
             appBar: CustomAppBar(
-              title: Text('Settings', style: TextStyle(color: Colors.black)),
+              title: Text('Settings', style: TextStyle(color: Colors.white)),
             ),
             body: SafeArea(
               child: Container(
@@ -52,7 +52,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         SettingsItem(
                           icon: Icons.exit_to_app,
                           iconBackgroundColor: Colors.red,
-                          title: 'Exit',
+                          title: 'Logout',
                           onTap: _settingsController.openModalExitApp,
                         ),
                       ],

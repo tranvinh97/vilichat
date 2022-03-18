@@ -43,16 +43,23 @@ dependencies:
   path_provider: ^1.5.1
 
   emoji_picker: ^0.1.0
-  flutter_statusbarcolor_ns: ^0.4.0
+
+  google_fonts: ^1.1.2
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+assets:
+  - assets/images/
+
 dependency_overrides:
   platform: ^3.1.0
-
-
-flutter:
-uses-material-design: true
-
-

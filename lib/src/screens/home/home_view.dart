@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context, snapshot) {
         return Scaffold(
           appBar: CustomAppBar(
-            title: Text(_homeController.loading ? 'Connecting...' : 'Chats'),
+            title: Text(_homeController.loading ? 'Connecting...' : 'Vilichat'),
             actions: <Widget>[
               IconButton(
                 icon: Icon(Icons.settings),
@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: Theme.of(context).primaryColor,
             child: Icon(
               Icons.message,
-              color: Theme.of(context).primaryColor,
+              color: Colors.white,
             ),
           ),
         );
@@ -69,20 +69,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget usersList(BuildContext context) {
-    // if (_homeController.loading) {
-    //   return SliverFillRemaining(
-    //     child: Center(
-    //       child: CupertinoActivityIndicator(),
-    //     ),
-    //   );
-    // }
-    // if (_homeController.error) {
-    //   return SliverFillRemaining(
-    //     child: Center(
-    //       child: Text('Ocorreu um erro ao buscar suas conversas.'),
-    //     ),
-    //   );
-    // }
     if (_homeController.chats.length == 0) {
       return Center(
         child: Text('You have no conversations.'),

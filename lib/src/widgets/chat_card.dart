@@ -60,7 +60,7 @@ class ChatCard extends StatelessWidget {
                     ),
                   ),
                   radius: 20,
-                  backgroundColor: Colors.blue,
+                  backgroundColor: Color.fromARGB(255, 241, 142, 237),
                 ),
                 Expanded(
                   child: Padding(
@@ -109,7 +109,8 @@ class ChatCard extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.end,
                                   children: <Widget>[
                                     Text(
-                                      UtilDates.getSendAtDayOrHour(chat.messages[0].sendAt),
+                                      UtilDates.getSendAtDayOrHour(
+                                          chat.messages[0].sendAt),
                                       style: TextStyle(
                                         color: _numberOfUnreadMessagesByMe() > 0
                                             ? Theme.of(context).primaryColor

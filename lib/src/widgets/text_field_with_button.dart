@@ -88,7 +88,7 @@ class TextFieldWithButton extends StatelessWidget {
                                     horizontal: 10,
                                     vertical: 8,
                                   ),
-                                  hintText: 'Digite uma mensagem',
+                                  hintText: 'Type a message',
                                   hintStyle: TextStyle(
                                     fontSize: 14,
                                     color: Colors.grey,

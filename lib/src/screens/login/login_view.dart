@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           Text(
                             'To continue, fill in the fields below.',
                             style: TextStyle(
-                              fontSize: 12,
+                              fontSize: 14,
                             ),
                           ),
                           SizedBox(

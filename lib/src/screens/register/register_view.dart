@@ -61,7 +61,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           Text(
                             'Create an account on ViliChatApp.',
                             style: TextStyle(
-                              fontSize: 12,
+                              fontSize: 14,
                             ),
                           ),
                           SizedBox(

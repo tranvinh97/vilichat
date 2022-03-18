@@ -18,8 +18,7 @@ class UtilDates {
 
   static int getTodayMidnight() {
     final now = DateTime.now();
-    final lastMidnight =
-        new DateTime(now.year, now.month, now.day);
+    final lastMidnight = new DateTime(now.year, now.month, now.day);
     final lastMidnightMilliseconds = lastMidnight.millisecondsSinceEpoch;
     return lastMidnightMilliseconds;
   }
@@ -40,7 +39,7 @@ class UtilDates {
     if (daysSinceMessage == 0) {
       return messageHour(milliseconds);
     }
-    
+
     if (daysSinceMessage == 1) {
       return "Ontem";
     }
@@ -62,11 +61,11 @@ class UtilDates {
     }
 
     if (daysSinceMessage == 0) {
-      return "Hoje";
+      return "Today";
     }
-    
+
     if (daysSinceMessage == 1) {
-      return "Ontem";
+      return "Yesterday";
     }
 
     return messageWeekDay(milliseconds);
@@ -76,7 +75,6 @@ class UtilDates {
     DateTime date = new DateTime.fromMillisecondsSinceEpoch(milliseconds);
     return formatHour.format(date);
   }
-
 
   static String messageDay(int milliseconds) {
     DateTime date = new DateTime.fromMillisecondsSinceEpoch(milliseconds);

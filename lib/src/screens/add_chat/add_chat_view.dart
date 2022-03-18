@@ -31,7 +31,7 @@ class _AddChatScreenState extends State<AddChatScreen> {
         builder: (context, snapshot) {
           return Scaffold(
             appBar: CustomAppBar(
-              title: Text('New chat'),
+              title: Text('List friend'),
             ),
             body: renderUsers(),
           );
