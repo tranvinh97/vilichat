@@ -77,7 +77,7 @@ packages:
       name: file
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.2.1"
+    version: "6.1.2"
   firebase_messaging:
     dependency: "direct main"
     description:
@@ -239,7 +239,7 @@ packages:
       name: process
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.13"
+    version: "4.2.4"
   progress_dialog:
     dependency: "direct main"
     description:
